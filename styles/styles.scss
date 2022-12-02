@@ -1,0 +1,11 @@
+.card {
+  @media (prefers-color-scheme: dark) {
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  height: 100%;
+}
+
+.card-list {
+  display: grid;
+}
